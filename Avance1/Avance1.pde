@@ -188,7 +188,7 @@ class Tractor {
     fill(255);
     textSize(12);
     textAlign(CENTER, CENTER);
-    text("Tractor", x, y + 15);
+    text("Recolector", x, y + 15);
     text(cropsCollected, x, y);
   }
 
@@ -288,7 +288,7 @@ class Truck {
     fill(255);
     textSize(12);
     textAlign(CENTER, CENTER);
-    text("Camión", x, y + 15); 
+    text("Tractor", x, y + 15); 
     text(cropsInside, x, y);
   }
 
